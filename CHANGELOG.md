@@ -139,6 +139,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Removed deprecated `reload_dataloaders_every_epoch` from `Trainer` in favour of `reload_dataloaders_every_n_epochs` ([#10481](https://github.com/PyTorchLightning/pytorch-lightning/pull/10481))
 
 
+- Removed patching of common `DataHooks` to the `LightningModule` ([#10603](https://github.com/PyTorchLightning/pytorch-lightning/pull/10603))
+
+
 
 ### Fixed
 
